@@ -31,7 +31,7 @@ function Hero() {
 
 const StyledHero = styled.div`
   display: flex;
-  height: 20vh;
+  height: 500px;
 
   .content {
     display: flex;
