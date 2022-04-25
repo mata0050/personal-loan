@@ -2,10 +2,13 @@ import { ThemeProvider } from 'styled-components';
 
 // CSS
 import './App.css';
-import GlobalStyles from './css/Global';
 
 // Component
-import Landing from './pages/Landing';
+import Benefits from './components/Benefits';
+import Hero from './components/Hero';
+import LoanDetails from './components/LoanDetails';
+import GlobalStyles from './css/Global';
+
 
 const theme = {
   colors: {
@@ -26,7 +29,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <div>
         <GlobalStyles />
-        <Landing />
+        <Hero />
+        <LoanDetails />
+        <Benefits />
       </div>
     </ThemeProvider>
   );

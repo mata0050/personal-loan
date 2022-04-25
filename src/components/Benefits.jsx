@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Images
-import credit from '../../images/no_credit_history.jpg';
-import personalLoan from '../../images/personalLoans_4.jpg';
-import webBenefit from '../../images/web_benefit_Images_coapp.jpg';
+import credit from '../images/no_credit_history.jpg';
+import personalLoan from '../images/personalLoans_4.jpg';
+import webBenefit from '../images/web_benefit_Images_coapp.jpg';
 
 function Benefits() {
   return (

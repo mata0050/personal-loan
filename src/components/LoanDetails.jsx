@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 // Icons
-import bill from '../../images/payment-method.png';
-import debt from '../../images/debt.png';
-import car from '../../images/car.png';
+import bill from '../images/payment-method.png';
+import debt from '../images/debt.png';
+import car from '../images/car.png';
 
 function LoanDetails() {
   return (

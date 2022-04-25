@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 // CSS
-import { Button } from '../../css/Button.styled';
-import heroImage from '../../images/hero.png';
+import { Button } from '../css/Button.styled';
+import heroImage from '../images/hero.png';
 
 function Hero() {
   return (
